@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background:
+    linear-gradient(
+        rgba(35,20,10,0.70),
+        rgba(35,20,10,0.85)
+    ),
+    url("https://images.unsplash.com/photo-1601050690597-df0568f70950");
+
+    background-size: cover;
+    background-position: center;
+
+    font-family: 'Poppins', sans-serif;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:white;
+}
+
+
+.container {
+
+    width:90%;
+    max-width:420px;
+
+    text-align:center;
+
+    padding:35px 25px;
+
+}
+
+
+.logo {
+
+    width:170px;
+
+    max-width:80%;
+
+    margin-bottom:15px;
+
+}
+
+
+h1 {
+
+    font-family:'Playfair Display', serif;
+
+    font-size:38px;
+
+    margin:10px 0 5px;
+
+}
+
+
+.subtitle {
+
+    font-size:18px;
+
+    font-style:italic;
+
+    margin-bottom:25px;
+
+}
+
+
+
+.card {
+
+    background:rgba(255,255,255,0.15);
+
+    backdrop-filter:blur(10px);
+
+    border-radius:20px;
+
+    padding:20px;
+
+    margin-bottom:25px;
+
+    border:1px solid rgba(255,255,255,.25);
+
+}
+
+
+.card h2 {
+
+    margin-top:0;
+
+}
+
+
+
+.button {
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:10px;
+
+    width:100%;
+
+    padding:16px;
+
+    margin:14px 0;
+
+    border-radius:50px;
+
+    color:white;
+
+    text-decoration:none;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    box-shadow:
+    0 8px 20px rgba(0,0,0,.35);
+
+    transition:.25s;
+
+}
+
+
+.button:hover {
+
+    transform:translateY(-3px);
+
+}
+
+
+
+.ifood {
+
+    background:#ea1d25;
+
+}
+
+
+.food99 {
+
+    background:#111;
+
+}
+
+
+.instagram {
+
+    background:
+    linear-gradient(
+    45deg,
+    #f9ce34,
+    #ee2a7b,
+    #6228d7
+    );
+
+}
+
+
+
+footer {
+
+    margin-top:30px;
+
+    font-size:13px;
+
+    opacity:.8;
+
+}
